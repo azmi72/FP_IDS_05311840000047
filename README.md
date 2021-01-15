@@ -13,13 +13,13 @@ Program Sederhana untuk mengirim email kepada pemilik sistem setiap kali seseora
 - Sekarang buka Accounts dan Import Tab.
 - Klik Pengaturan Akun Google Lainnya.
 - Sekarang dari keamanan klik panel kiri.
-- Scroll ke bawah, Temukan Less secure app access dan access nya di on kan.
+- Scroll ke bawah, Temukan Less secure app access dan access nya di on kan. <br>
 2. Instal modul smtplib untuk python
-- `pip3 instal smtplib`
-3. Masukkan <b>SENDER_EMAIL</b>, <b>RECIEVER_EMAIL</b> dan sandi email pengirim di variabel <b>PASSWORD</b>
+- `pip3 instal smtplib` <br>
+3. Masukkan <b>SENDER_EMAIL</b>, <b>RECIEVER_EMAIL</b> dan sandi email pengirim di variabel <b>PASSWORD</b> <br>
 4. Buka /etc/udev/rules.d/ dan buat syntax kita:
 - vim /etc/udev/rules.d/10.rules
 - Misalkan kode python kita adalah mymail.py di direktori /root
 - Di file rules, tulis: `ACTION=="add", SUBSYSTEM=="usb" RUN=="/root/mymail.py"`
-- Pastikan kita terhubung ke internet dan `mymail.py` kita memiliki izin yang dapat dijalankan.
+- Pastikan kita terhubung ke internet dan `mymail.py` kita memiliki izin yang dapat dijalankan. <br>
 5. Langkah yang sama berlaku untuk file lampiran yaitu `mailwithattachment.py`.
