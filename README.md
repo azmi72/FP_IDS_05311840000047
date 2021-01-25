@@ -3,7 +3,7 @@
 
 Program Sederhana untuk mengirim email kepada pemilik sistem setiap kali seseorang memasukkan flashdisk ke dalam sistem.<br>
 
-`mail.py` adalah file python di mana kita bisa mendapatkan email yang dimasukkan seseorang ke dalam flashdisk di perangkat kita setiap kali seseorang memasukkan perangkat usb ke sistem kita. <br>
+`mymail.py` adalah file python di mana kita bisa mendapatkan email yang dimasukkan seseorang ke dalam flashdisk di perangkat kita setiap kali seseorang memasukkan perangkat usb ke sistem kita. <br>
 
 `mailwithattachment.py` adalah file python setiap kali seseorang memasukkan perangkat USB ke sistem kita, foto pengguna akan diklik dari sistem kita, dan teks beserta foto itu akan dikirimkan kepada email kita.
 __________________________________________________________________________________________________________________________________________________________________________________
